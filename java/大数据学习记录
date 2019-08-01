@@ -1,0 +1,157 @@
+1.Linux命令：
+
+
+2.git版本控制命令：git clone http://git.jd.com/ads-data/ads-data-flink-realtime.git
+	（1）切换分支：git checkout dev
+	（2）拉取分支：git pull origin dev
+	（3）新建分支：git checkout -b dev-offline-advertising（或git checkout -b origin dev 或git branch dev）
+	（4）查看分支：git branch
+		 删除分支：git branch -D dev-zhouyizhe
+		 更改分支名：git branch -M dev-zhouyizhe
+	（5）查看git状态：git status
+	（6）提交到远程的步骤：
+			git add .
+		    git commit -m "Migrate offline advertising from Spark to Flink"（为了少留下commit操作的痕迹，使用git commit --amend --no-edit）
+		    git push -u -f origin dev-offline-advertising（git push -f）
+	（7）将一个分支的更改并入另一个分支：git rebase 想拉取的分支名
+	    （实例：dev与dev-offline-advertising，首先在dev分支下git pull origin dev，然后在dev-offline-advertising分支下git rebase dev）
+	（8）查看日志：git log --oneline --graph
+				   git log --graph --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --all
+	（9）合并分支：git merge --no-ff -m "title"(例：master合并dev)
+	（10）回退到之前的节点：git reset --hard ID
+	
+	（11）本地电脑git连接远程github：git checkout master
+									 git remote add origin https://github.com/zyzyida/git-demo.git
+									 git push -u origin master
+									 git push -u origin dev
+	
+	
+3.maven常用命令：（注意在git bash中运行）
+	打包：mvn clean package
+	查看：mvn dependency:tree
+	      mvn dependency:tree | grep dx-proto
+	
+
+
+一、Java学习
+
+
+
+二、Scala学习
+DataFrame对象上的条件查询和join等操作
+1.where条件相关
+（1）where():SQL语言中where关键字后的条件 jdbcDF.where("id = 1 or c1 = 'b'" ).show()
+（2）filter():根据字段进行筛选 jdbcDF.filter("id = 1 or c1 = 'b'" ).show()
+2.查询指定字段
+（1）select():获取指定字段值 jdbcDF.select( "id" , "c3" ).show(false)
+							 jdbcDF.select(jdbcDF( "id" ), jdbcDF( "id") + 1 ).show(false)
+（2）selectExpr():可以对指定字段进行特殊处理 jdbcDF .selectExpr("id" , "c3 as time" , "round(c4)" ).show(false)
+（3）col()：获取指定字段 val idCol = jdbcDF.col(“id”)
+（4）apply()：获取指定字段 val idCol1 = jdbcDF.apply("id") val idCol2 = jdbcDF("id")
+（5）drop()：去除指定字段，保留其他字段 jdbcDF.drop("id")
+3.limit()：获取指定DataFrame的前n行记录，得到一个新的DataFrame对象 jdbcDF.limit(3).show()
+4.（1）orderBy()和sort():按指定字段排序，默认为升序 jdbcDF.orderBy("id").show()、jdbcDF.orderBy(jdbsDF("id").desc).show()、jdbcDF.sort("id").show()
+（2）sortWithinPartitions():和上面的sort方法功能类似，区别在于sortWithinPartitions方法返回的是按Partition排好序的DataFrame对象。
+5.groupBy():根据字段进行group by操作.groupBy方法有两种调用方式，可以传入String类型的字段名，也可传入Column类型的对象。
+             jdbcDF.groupBy("c1")、jdbcDF.groupBy(jdbcDF("c1"))
+6.distinct()：返回一个不包含重复记录的DataFrame jdbcDF.distinct()
+  dropDuplicates()：根据指定字段去重 jdbcDF.dropDuplicates(Seq("c1"))
+7.agg():聚合操作调用的是agg方法,一般与groupBy方法配合使用。 jdbcDF.agg("id" -> "max", "c4" -> "sum").show()
+8.unionAll()：对两个DataFrame进行组合 jdbcDF.unionALL(jdbcDF.limit(1))
+9.join():
+（1）笛卡尔积：joinDF1.join(joinDF2)
+（2）using一个字段形式：joinDF1.join(joinDF2, "id")
+（3）using多个字段形式：joinDF1.join(joinDF2, Seq("id", "name"))
+（4）指定join类型：joinDF1.join(joinDF2, Seq("id", "name"), "inner"）（两个DataFrame的join操作有inner, outer, left_outer, right_outer, leftsemi类型。）
+（5）使用Column类型来join：joinDF1.join(joinDF2 , joinDF1("id" ) === joinDF2( "t1_id"))
+（6）在指定join字段同时指定join类型：joinDF1.join(joinDF2 , joinDF1("id" ) === joinDF2( "t1_id"), "inner")
+10.stat获取指定字段统计信息：jdbcDF.stat.freqItems(Seq ("c1") , 0.3).show()
+11.intersect():获取两个DataFrame中共有的记录 jdbcDF.intersect(jdbcDF.limit(1)).show(false)
+12.except():获取一个DataFrame中有另一个DataFrame中没有的记录 jdbcDF.except(jdbcDF.limit(1)).show(false)
+13.操作字段名
+（1）withColumnRenamed：重命名DataFrame中的指定字段名 jdbcDF.withColumnRenamed( "id" , "idx" )
+（2）withColumn：往当前DataFrame中新增一列 jdbcDF.withColumn("id2", jdbcDF("id")).show( false)
+14.explode:行转列,有时候需要根据某个字段内容进行分割，然后生成多行，这时可以使用explode方法 jdbcDF.explode( "c3" , "c3_" ){time: String => time.split( " " )}
+
+
+三、大数据
+1.onyarn与standalone
+
+
+四、spark
+
+
+
+五、flink
+1.wordcount例程：首先下载flink-1.7.2,netcat-1.11;
+                 然后在flink-1.7.2下./bin/start-cluster.sh，开启flink集群；
+				 再进行maven配置，编写wordcount代码后运行，nc -L -p 9000 -v命令开启监听。
+2.Data Sources数据来源
+（1）StreamExecutionEnvironment.addSource(sourceFunction)：在此添加数据来源，
+	 其中可以通过实现 SourceFunction 来自定义非并行的 source， 或者实现 ParallelSourceFunction 接口，
+	 或者扩展 RichParallelSourceFunction 来自定义并行的 source。
+
+
+
+
+
+六、shell
+echo 输出
+if...then...else...fi 判断
+-eq =
+-ne ！=
+-gt >
+-lt <
+-ge >=
+-le <=
+curl 访问url的工具
+local 局部变量声明
+cat 一次性显示所有的内容,管道“|” 用来将前一个命令的标准输出传递到下一个命令的标准输入
+grep 根据用户指定的文本模式对目标文件进行逐行搜索，显示能够被模式所匹配到的行
+wc 用来打印文件的文本行数、单词数、字节数等
+ps 进程查看命令,最常用的方法是ps -aux,然后再利用一个管道符号导向到grep去查找特定的进程,然后再对特定的进程进行操作。
+
+
+
+
+
+
+
+
+
+【内推】【校招】京东广告数据部2020年校招提前批
+
+招聘部门：京东商业提升事业部-数据部-数据架构组
+招聘职位：数据架构工程师
+工作地点：北京北辰世纪中心A座（靠近鸟巢）
+
+职位介绍：
+数据收集、处理、挖掘是智能广告投放系统的先决条件。这一工作在技术上又是极富挑战的：我们需要从前端的大量服务器中快速、可靠地收集数据，进行业务、逻辑处理，并把数据发布给别的工程师、客户、内部运营分析人员，帮助他们做最好的决策。加入我们，你将会得到如下机会： 
+1.和团队资深大数据专家一道，深入学习如何用大数据处理技术开发能够洞察数据价值的可扩展、稳定的数据处理系统； 
+2.开发自己的大数据收集、发布、存储系统； 
+3.充分利用京东这一快速成长的平台，分享京东的快速成长。京东是中国最大的零售企业，无论线上和线下。同时，京东的发展趋势远超电商大盘，销售额年同比增长两倍于行业增速。
+
+岗位职责：
+1.建立可靠的数据收集、发布和处理平台
+2.开发实时、高可靠、强一致的分布式计费、统计系统、报表数据中台
+3.建立准确的广告预算、匀速消费等广告播放控制系统
+4.构建实时的广告效果归因系统
+
+该职位的要求如下：
+1.2019年10月1日至2020年9月31日期间毕业，全日制本科及以上学历
+2.对大数据处理、分布式存储等技术有热情，能主动跟踪最新的技术进展 
+3.扎实的计算机专业基础知识，熟练掌握Java，对jvm有深入了解者优先
+4.熟练掌握Shell、Python任意一门脚本语言
+5.良好的数据结构与算法基础
+6.有Mapreduce, Hive, Pig, Spark,flink经验和low latency大数据处理和存储系统经验者优先 
+
+我是今年入职的北邮应届生，欢迎加我微信咨询我们组情况，微信号：zyz940926。
+简历发送至wangxuan1@jd.com，邮件标题【京东数据部2020校招】<应聘职位>_<姓名>_<学校与专业>  
+例如：【京东数据部2020校招】数据架构工程师_李四_XX大学XX专业
+
+
+
+
+
+
+
