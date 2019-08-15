@@ -2,14 +2,31 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="flinklearningexamples" />
+        <module name="cassandra" />
+        <module name="es6" />
+        <module name="flink-learning-data-sinks" />
+        <module name="flink-learning-data-sources" />
+        <module name="flink-learning-examples" />
         <module name="flinklearningcommon" />
+        <module name="flinklearningdatasink" />
         <module name="flinklearningdatasources" />
+        <module name="flinklearningexamples" />
+        <module name="flinklearningsql" />
+        <module name="hbase" />
+        <module name="kafka" />
+        <module name="mysql" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="flink" target="1.8" />
+      <module name="flink-learning-common" target="1.8" />
+      <module name="flinklearningexamples" target="1.8" />
+      <module name="kafkalearning" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,8 +3,15 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-learning-common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/flink-learning-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/cassandra" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/es6" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/hbase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-connectors/mysql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-data-sinks" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-learning-data-sources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-learning-examples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learning-sql" charset="UTF-8" />
   </component>
 </project>

@@ -1,0 +1,5 @@
+com/zyzyida/data/sinks/utils/KafkaUtil.class
+com/zyzyida/data/sinks/model/Student.class
+com/zyzyida/data/sinks/Main.class
+com/zyzyida/data/sinks/sinks/SinkToMySQL.class
+com/zyzyida/data/sinks/utils/MySQLUtil.class
