@@ -2,36 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e1f2e08-635b-46a9-91d7-e261b04d1a46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-connectors/hbase/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/batch/accumulator/BasicWordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/batch/accumulator/WordCountWithLinesNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zyzyida/examples/batch/accumulator/Main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zyzyida/examples/batch/accumulator/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zyzyida/examples/batch/accumulator/Main2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zyzyida/examples/batch/accumulator/Main2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zyzyida/examples/streaming/file/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-sql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/model/WordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/sql/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-sql/target/classes/com/zyzyida/sql/Sort$Event.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-sql/target/classes/com/zyzyida/sql/Sort$OutOfOrderEventSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-sql/target/classes/com/zyzyida/sql/Sort$TimestampsAndWaterMmarks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learning-sql/target/classes/com/zyzyida/sql/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink-learning" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-connectors/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-connectors/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/operator/transformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/operator/Transformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/streaming/file/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/streaming/file/FileSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/streaming/socket/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/streaming/socket/SocketWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/streaming/wordcount/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/streaming/wordcount/FileWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zyzyida/examples/streaming/socket/Main$LineSplitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zyzyida/examples/streaming/socket/Main$LineSplitter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zyzyida/examples/streaming/socket/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/target/classes/com/zyzyida/examples/streaming/socket/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/flink-learning-examples-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/target/flink-learning-examples-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-examples/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-examples/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/model/MetricEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/model/MetricEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-common/target/classes/com/zyzyida/common/model/MetricEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/target/classes/com/zyzyida/common/model/MetricEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-data-sinks/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sinks/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zyzyida/data/sinks/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zyzyida/data/sinks/FlinkWriteMysql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-data-sources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sources/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/FlinkReadKafka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/FlinkReadMysql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/window/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/window/FlinkWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/ObjectOriented/AbstractDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/ObjectOriented/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/ObjectOriented/Encapsulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/ObjectOriented/Inherit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/ObjectOriented/Inherit2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/ObjectOriented/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/ObjectOriented/Salary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/ObjectOriented/polymorphic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/Test/Adrealtime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/Test/TableApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/Test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/Test/TestThisSuper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main/java/Test/test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/Flink/WordCount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/Flink/WordCount$WordWithCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/Flink/WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/ObjectOriented/AbstractDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/ObjectOriented/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/ObjectOriented/Animal1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/ObjectOriented/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/ObjectOriented/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/ObjectOriented/Dog1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/ObjectOriented/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/ObjectOriented/Encapsulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/ObjectOriented/Inherit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/ObjectOriented/Inherit2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/ObjectOriented/Salary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/ObjectOriented/SubClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/ObjectOriented/SubClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/ObjectOriented/SuperClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/ObjectOriented/polymorphic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/Test/Adrealtime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/Test/TableApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/Test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/Test/TestThisSuper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/学习笔记.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,6 +75,9 @@
     <ignored path="$PROJECT_DIR$/flink-learning-data-sinks/target/" />
     <ignored path="$PROJECT_DIR$/flink-learning-connectors/hbase/target/" />
     <ignored path="$PROJECT_DIR$/flink-learning-sql/target/" />
+    <ignored path="$PROJECT_DIR$/scalaProject/target/" />
+    <ignored path="$PROJECT_DIR$/hhjj/target/" />
+    <ignored path="$PROJECT_DIR$/java-learning/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,65 +93,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <file leaf-file-name="ExplainingTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/table/ExplainingTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="594">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordCountWithLinesNum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/batch/accumulator/WordCountWithLinesNum.java">
+      <file leaf-file-name="WordCountTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/table/WordCountTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamSQLExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/sql/StreamSQLExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableEnvironment.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.1/flink-table-planner_2.11-1.8.1-sources.jar!/org/apache/flink/table/api/TableEnvironment.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="742" column="29" selection-start-line="742" selection-start-column="29" selection-end-line="742" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlinkPlannerImpl.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.1/flink-table-planner_2.11-1.8.1-sources.jar!/org/apache/flink/table/calcite/FlinkPlannerImpl.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlinkReadKafka.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/FlinkReadKafka.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flink-learning-sql/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/sql/Sort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="37" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="18" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1616#1617#0" expanded="true" />
-                <element signature="e#1687#1688#0" expanded="true" />
-                <element signature="e#2137#2138#0" expanded="true" />
-                <element signature="e#2176#2177#0" expanded="true" />
-                <element signature="e#2371#2372#0" expanded="true" />
-                <element signature="e#2437#2438#0" expanded="true" />
-                <element signature="e#2508#2509#0" expanded="true" />
-                <element signature="e#2554#2555#0" expanded="true" />
-                <marker date="1566569754808" expanded="true" signature="1404:1430" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordCount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/model/WordCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -131,15 +161,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Scala Script" />
+        <option value="Scala Worksheet" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;scope&gt;test&lt;</find>
-      <find>scope</find>
-      <find>getConnection</find>
       <find>sources</find>
       <find>junit</find>
       <find>5</find>
@@ -166,6 +195,10 @@
       <find>my</find>
       <find>FlatMapFunction</find>
       <find>that</find>
+      <find>MetricEvent</find>
+      <find>metricEvent</find>
+      <find>scala</find>
+      <find>registerDataStream</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,19 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/operator/transformation.java" />
-        <option value="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/window/Main.java" />
-        <option value="$PROJECT_DIR$/flink-learning-data-sink/src/main/java/com/zyzyida/data/sinks/utils/KafkaUtil.java" />
-        <option value="$PROJECT_DIR$/flink-learning-data-sink/src/main/java/com/zyzyida/data/sinks/utils/MySQLUtil.java" />
-        <option value="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/utils/kafkaUtil.java" />
-        <option value="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/constant/PropertiesConstants.java" />
-        <option value="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/model/ProductEvent.java" />
-        <option value="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/model/Metric.java" />
-        <option value="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/schemas/MetricSchema.java" />
-        <option value="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/watermarks/MetricWatermark.java" />
-        <option value="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/utils/KafkaConfigUtil.java" />
-        <option value="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/utils/ExecutionEnvUtil.java" />
-        <option value="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/streaming/wordcount/Main.java" />
         <option value="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/streaming/file/Main.java" />
         <option value="$PROJECT_DIR$/flink-learning-connectors/mysql/src/main/java/com/zyzyida/connectors/mysql/model/Student.java" />
         <option value="$PROJECT_DIR$/flink-learning-connectors/mysql/src/main/java/com/zyzyida/connectors/mysql/utils/MySQLUtil.java" />
@@ -207,13 +227,9 @@
         <option value="$PROJECT_DIR$/flink-learning-data-sources/pom.xml" />
         <option value="$PROJECT_DIR$/flink-learning-connectors/mysql/src/main/java/com/zyzyida/connectors/mysql/utils/KafkaUtil.java" />
         <option value="$PROJECT_DIR$/flink-learning-connectors/mysql/src/main/java/com/zyzyida/connectors/mysql/Main.java" />
-        <option value="$PROJECT_DIR$/flink-learning-common/pom.xml" />
-        <option value="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/model/MetricEvent.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zyzyida/data/sinks/utils/KafkaUtil.java" />
         <option value="$PROJECT_DIR$/flink-learning-connectors/kafka/src/main/java/com/zyzyida/connectors/kafka/Main.java" />
         <option value="$PROJECT_DIR$/flink-learning-examples/pom.xml" />
-        <option value="$PROJECT_DIR$/ReadMe.md" />
         <option value="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/batch/accumulator/Main2.java" />
         <option value="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/batch/accumulator/Main.java" />
         <option value="$PROJECT_DIR$/flink-learning-sql/pom.xml" />
@@ -225,6 +241,23 @@
         <option value="$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/sql/Sort.java" />
         <option value="$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/model/WordCount.java" />
         <option value="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/batch/accumulator/WordCountWithLinesNum.java" />
+        <option value="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/model/MetricEvent.java" />
+        <option value="$PROJECT_DIR$/flink-learning-common/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/table/WordCountTable.java" />
+        <option value="$PROJECT_DIR$/ReadMe.md" />
+        <option value="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/FlinkReadKafka.java" />
+        <option value="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/FlinkReadMysql.java" />
+        <option value="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/window/FlinkWindow.java" />
+        <option value="$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zyzyida/data/sinks/FlinkWriteMysql.java" />
+        <option value="$PROJECT_DIR$/scalaProject/pom.xml" />
+        <option value="$PROJECT_DIR$/hhjj/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/sql/StreamSql.java" />
+        <option value="$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/sql/StreamSQLExample.java" />
+        <option value="$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/table/ExplainingTable.java" />
+        <option value="$PROJECT_DIR$/java-learning/src/main/java/ObjectOriented/Salary.java" />
+        <option value="$PROJECT_DIR$/java-learning/src/main/java/Serializable/FlyPig.java" />
+        <option value="$PROJECT_DIR$/java-learning/src/main/java/Serializable/Serializable.java" />
       </list>
     </option>
   </component>
@@ -264,7 +297,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,47 +308,52 @@
             <path>
               <item name="flink" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-connectors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-data-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-data-sources" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-data-sources" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-data-sources" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-data-sources" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="accumulator" type="462c0819:PsiDirectoryNode" />
+              <item name="zyzyida" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-data-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zyzyida" type="462c0819:PsiDirectoryNode" />
+              <item name="sources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink" type="b2602c69:ProjectViewProjectNode" />
@@ -351,16 +389,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zyzyida" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-sql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zyzyida" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink" type="b2602c69:ProjectViewProjectNode" />
@@ -372,12 +400,22 @@
               <item name="zyzyida" type="462c0819:PsiDirectoryNode" />
               <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learning-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zyzyida" type="462c0819:PsiDirectoryNode" />
+              <item name="table" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,15 +429,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21599264" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/watermarks" />
-      <recent name="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/utils" />
-      <recent name="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/schemas" />
-      <recent name="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/model" />
-      <recent name="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/constant" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/streaming/file" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zyzyida.common.utils" />
@@ -408,8 +442,12 @@
       <recent name="com.zyzyida.connectors.mysql.model" />
       <recent name="com.zyzyida.data.sinks.model" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/streaming/file" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java-learning/src/main/java" />
+      <recent name="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/watermarks" />
+      <recent name="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/utils" />
+      <recent name="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/schemas" />
+      <recent name="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -424,19 +462,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sort">
-    <configuration name="BasicWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zyzyida.examples.batch.accumulator.BasicWordCount" />
-      <module name="flink-learning-examples" />
+  <component name="RunManager" selected="Application.Serializable">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zyzyida.flink.App" />
+      <module name="scalaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zyzyida.examples.batch.accumulator.*" />
+          <option name="PATTERN" value="com.zyzyida.flink.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zyzyida.sql.Sort" />
+    <configuration name="ExplainingTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zyzyida.table.ExplainingTable" />
+      <module name="flinklearningsql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zyzyida.table.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Serializable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Serializable.Serializable" />
+      <module name="javalearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Serializable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StreamSQLExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zyzyida.sql.StreamSQLExample" />
       <module name="flinklearningsql" />
       <extension name="coverage">
         <pattern>
@@ -445,12 +503,12 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="WordCountWithLinesNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zyzyida.examples.batch.accumulator.WordCountWithLinesNum" />
-      <module name="flink-learning-examples" />
+    <configuration name="WordCountTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zyzyida.table.WordCountTable" />
+      <module name="flinklearningsql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zyzyida.examples.batch.accumulator.*" />
+          <option name="PATTERN" value="com.zyzyida.table.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -509,15 +567,19 @@
     <list>
       <item itemvalue="Maven.examples package" />
       <item itemvalue="Maven.build" />
-      <item itemvalue="Application.BasicWordCount" />
-      <item itemvalue="Application.WordCountWithLinesNum" />
-      <item itemvalue="Application.Sort" />
+      <item itemvalue="Application.StreamSQLExample" />
+      <item itemvalue="Application.WordCountTable" />
+      <item itemvalue="Application.ExplainingTable" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.Serializable" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.WordCountWithLinesNum" />
-        <item itemvalue="Application.BasicWordCount" />
+        <item itemvalue="Application.Serializable" />
+        <item itemvalue="Application.ExplainingTable" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.WordCountTable" />
+        <item itemvalue="Application.StreamSQLExample" />
       </list>
     </recent_temporary>
   </component>
@@ -563,36 +625,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="23" width="1622" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
+      <window_info id="DB Browser" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="12" weight="0.36818182" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32954547" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932158" visible="true" weight="0.2687898" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Job Explorer" order="2" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info id="Structure" order="5" sideWeight="0.5006784" side_tool="true" weight="0.26497006" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39891452" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
-      <window_info id="DB Browser" order="2" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32954547" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run" order="12" weight="0.62613636" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32954547" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932158" visible="true" weight="0.21910828" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32954547" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32934132" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39891452" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32954547" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32954547" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -613,230 +676,97 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-java/1.8.1/flink-java-1.8.1.jar!/org/apache/flink/api/java/utils/ParameterTool.class" />
-    <entry file="file://$PROJECT_DIR$/flink-learning-common1/src/main/java/com/zyzyida/common/schemas/MetricSchema.java" />
-    <entry file="file://$PROJECT_DIR$/flink-learning-common1/src/main/java/com/zyzyida/common/model/MetricEvent.java" />
-    <entry file="file://$PROJECT_DIR$/flink-learning-common1/src/main/java/com/zyzyida/common/constant/PropertiesConstants.java" />
-    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/mysql/src/main/java/com/zyzyida/connectors/mysql/model/Student.java">
+    <entry file="file://$PROJECT_DIR$/java-learning/src/main/java/Serializable/Serializable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/mysql/src/main/java/com/zyzyida/connectors/mysql/utils/MySQLUtil.java">
+    <entry file="file://$PROJECT_DIR$/java-learning/src/main/java/Serializable/FlyPig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-common1/src/main/java/com/zyzyida/common/utils/KafkaConfigUtil.java" />
-    <entry file="file://$PROJECT_DIR$/flink-learning-common1/src/main/java/com/zyzyida/common/utils/ExecutionEnvUtil.java" />
-    <entry file="file://$PROJECT_DIR$/flink-learning-common1/src/main/java/com/zyzyida/common/utils/GsonUtil.java" />
-    <entry file="file://$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zyzyida/data/sinks/model/Student.java">
+    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/model/Metric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-640">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/utils/MySQLUtil.java">
+    <entry file="file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/streaming/wordcount/FileWordCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="108">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/sources/SourceFromMySQL.java">
+    <entry file="file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/streaming/file/FileSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/mysql/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-data-sinks/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/mysql/src/main/java/com/zyzyida/connectors/mysql/sinks/SinkToMySQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="79" selection-start-line="50" selection-start-column="79" selection-end-line="50" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-common1/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/flink-learning-common1/src/main/java/com/zyzyida/common/watermarks/MetricWatermark.java" />
-    <entry file="file://$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/model/ProductEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/utils/kafkaUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zyzyida/data/sinks/utils/MySQLUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zyzyida/data/sinks/sinks/SinkToMySQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zyzyida/data/sinks/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zyzyida/data/sinks/utils/KafkaUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/mysql/src/main/java/com/zyzyida/connectors/mysql/utils/KafkaUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/utils/KafkaConfigUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="83" column="7" lean-forward="true" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/mysql/src/main/java/com/zyzyida/connectors/mysql/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/utils/ExecutionEnvUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/kafka/src/main/java/com/zyzyida/connectors/kafka/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="198">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flink-learning-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-254">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.8.1/flink-streaming-java_2.11-1.8.1.jar!/org/apache/flink/streaming/api/environment/StreamExecutionEnvironment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="293" column="45" selection-start-line="293" selection-start-column="45" selection-end-line="293" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-java/1.8.1/flink-java-1.8.1.jar!/org/apache/flink/api/java/ExecutionEnvironment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="278" column="35" selection-start-line="278" selection-start-column="35" selection-end-line="278" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-examples/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="110">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/model/MetricEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="455">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-connectors/kafka/src/main/java/com/zyzyida/connectors/kafka/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/watermarks/MetricWatermark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="385">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/utils/KafkaConfigUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="87" column="41" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/schemas/MetricSchema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/utils/GsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -847,104 +777,190 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/streaming/wordcount/FileWordCount.java">
+    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/window/FlinkWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/streaming/file/FileSource.java">
+    <entry file="file://$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zyzyida/data/sinks/FlinkWriteMysql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="231">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/operator/Transformation.java">
+    <entry file="file://$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zyzyida/data/sinks/sinks/SinkToMySQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="335">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-sql/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="132">
+            <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.1/flink-table-planner_2.11-1.8.1.jar!/org/apache/flink/table/api/TableEnvironment.class">
+    <entry file="file://$PROJECT_DIR$/scalaProject/src/main/scala/dd.scala" />
+    <entry file="file://$PROJECT_DIR$/hhjj/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/scalaProject/src/main/scala/com/zyzyida/flink/App.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.1/flink-table-planner_2.11-1.8.1.jar!/org/apache/flink/table/api/java/StreamTableEnvironment.class">
+    <entry file="file://$PROJECT_DIR$/scalaProject/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="792">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/sql/Sort.java">
+    <entry file="file://$PROJECT_DIR$/scalaProject/src/main/scala/com/zyzyida/flink/first.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1616#1617#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
-            <element signature="e#2371#2372#0" expanded="true" />
-            <element signature="e#2437#2438#0" expanded="true" />
-            <element signature="e#2508#2509#0" expanded="true" />
-            <element signature="e#2554#2555#0" expanded="true" />
-            <marker date="1566569754808" expanded="true" signature="1404:1430" ph="..." />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/model/WordCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/batch/accumulator/BasicWordCount.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.1/flink-table-planner_2.11-1.8.1.jar!/org/apache/flink/table/api/TableEnvironment.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="217">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-learning/src/main/java/Serializable/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learning-examples/src/main/java/com/zyzyida/examples/batch/accumulator/WordCountWithLinesNum.java">
+    <entry file="file://$PROJECT_DIR$/java-learning/src/main/java/Serializable/FlyPig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/FlinkReadMysql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/sources/SourceFromMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/operator/Transformation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/table/ExplainingTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/sql/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/table/WordCountTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.8.1/flink-core-1.8.1.jar!/org/apache/flink/api/common/serialization/SimpleStringSchema.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/FlinkReadKafka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.1/flink-table-planner_2.11-1.8.1-sources.jar!/org/apache/flink/table/calcite/FlinkPlannerImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.1/flink-table-planner_2.11-1.8.1-sources.jar!/org/apache/flink/table/api/TableEnvironment.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="742" column="29" selection-start-line="742" selection-start-column="29" selection-end-line="742" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/sql/StreamSQLExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

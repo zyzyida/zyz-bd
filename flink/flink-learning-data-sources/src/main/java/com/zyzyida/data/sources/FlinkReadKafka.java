@@ -12,7 +12,7 @@ import java.util.Properties;
  * 步骤：运行Main类后，运行utils/kafkaUtil类。
  * Created by zhouyizhe on 2019-08-08
  */
-public class Main {
+public class FlinkReadKafka {
     public static void main(String[] args) throws Exception {
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 

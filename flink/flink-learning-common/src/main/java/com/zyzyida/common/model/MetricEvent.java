@@ -36,8 +36,4 @@ public class MetricEvent {
      * Metric tags
      */
     private Map<String, String> tags;
-
-    public Long getTimestamp(){
-        return timestamp;
-    }
 }

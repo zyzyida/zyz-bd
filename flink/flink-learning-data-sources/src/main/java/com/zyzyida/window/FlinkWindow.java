@@ -12,7 +12,7 @@ import org.apache.flink.util.Collector;
  * Desc: flink window: 用来对一个无限的流设置一个有限的集合，在有界的数据集上进行操作的一种机制
  * Created by zhouyizhe on 2019-08-14
  */
-public class Main {
+public class FlinkWindow {
     public static void main(String[] args) throws Exception {
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         DataStreamSource<String> data = env.socketTextStream("127.0.0.1", 9000);

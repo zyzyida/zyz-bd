@@ -16,6 +16,8 @@
         <module>flink-learning-examples</module>
         <module>flink-learning-common</module>
         <module>flink-learning-sql</module>
+        <module>scalaProject</module>
+        <module>java-learning</module>
     </modules>
 
     <properties>
@@ -61,6 +63,11 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.25</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
         </dependency>
     </dependencies>
 

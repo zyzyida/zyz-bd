@@ -18,14 +18,17 @@
         <module name="flinklearningexamples" />
         <module name="flinklearningsql" />
         <module name="hbase" />
+        <module name="javalearning" />
         <module name="kafka" />
         <module name="mysql" />
+        <module name="scalaProject" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="flink" target="1.8" />
       <module name="flink-learning-common" target="1.8" />
       <module name="flinklearningexamples" target="1.8" />
+      <module name="hhjj" target="1.8" />
       <module name="kafkalearning" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -9,7 +9,7 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
  * 步骤：运行Main2类。
  * Created by zhouyizhe on 2019-08-11
  */
-public class Main2 {
+public class FlinkReadMysql {
     public static void main(String[] args) throws Exception {
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.addSource(new SourceFromMySQL()).print();

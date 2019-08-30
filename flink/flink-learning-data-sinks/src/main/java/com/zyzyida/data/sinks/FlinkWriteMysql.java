@@ -18,7 +18,7 @@ import java.util.Properties;
  * 步骤：开启flink任务后，运行Main类后，运行utils/KafkaUtil类
  * Created by zhouyizhe on 2019-08-13
  */
-public class Main {
+public class FlinkWriteMysql {
     public static void main(String[] args) throws Exception {
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
