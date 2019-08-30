@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9e1f2e08-635b-46a9-91d7-e261b04d1a46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../flink-learning" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/model/MetricEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/src/main/java/com/zyzyida/common/model/MetricEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-common/target/classes/com/zyzyida/common/model/MetricEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-common/target/classes/com/zyzyida/common/model/MetricEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-data-sinks/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sinks/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zyzyida/data/sinks/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sinks/src/main/java/com/zyzyida/data/sinks/FlinkWriteMysql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-data-sources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sources/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/FlinkReadKafka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/data/sources/FlinkReadMysql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/window/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learning-data-sources/src/main/java/com/zyzyida/window/FlinkWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/.idea/vcs.xml" beforeDir="false" />
@@ -117,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamSQLExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StreamSQLExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/sql/StreamSQLExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="272">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,7 +124,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlinkPlannerImpl.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FlinkPlannerImpl.scala" pinned="false" current-in-tab="true">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.1/flink-table-planner_2.11-1.8.1-sources.jar!/org/apache/flink/table/calcite/FlinkPlannerImpl.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
@@ -308,107 +294,28 @@
             <path>
               <item name="flink" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-connectors" type="462c0819:PsiDirectoryNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-data-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-data-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-data-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-data-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-data-sources" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zyzyida" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-data-sources" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zyzyida" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-sql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-sql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-sql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-sql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zyzyida" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-sql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zyzyida" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-learning-sql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zyzyida" type="462c0819:PsiDirectoryNode" />
-              <item name="table" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -625,7 +532,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="23" width="1622" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
@@ -638,10 +544,10 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="12" weight="0.36818182" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32954547" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932158" visible="true" weight="0.2687898" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932158" visible="true" weight="0.2687898" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Job Explorer" order="2" />
       <window_info anchor="bottom" id="Console" order="7" />
@@ -829,13 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scalaProject/src/main/scala/com/zyzyida/flink/first.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -943,13 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.1/flink-table-planner_2.11-1.8.1-sources.jar!/org/apache/flink/table/calcite/FlinkPlannerImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.1/flink-table-planner_2.11-1.8.1-sources.jar!/org/apache/flink/table/api/TableEnvironment.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -959,11 +851,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flink-learning-sql/src/main/java/com/zyzyida/sql/StreamSQLExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="272">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scalaProject/src/main/scala/com/zyzyida/flink/first.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.1/flink-table-planner_2.11-1.8.1-sources.jar!/org/apache/flink/table/calcite/FlinkPlannerImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
         </state>
       </provider>
     </entry>
